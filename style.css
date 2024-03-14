@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.geex-sidebar__logo {
+  top: 200px;
+  left: 50px;
+}
+
+.logo-dark {
+  max-width: 3%; 
+}
+
+/* Style for sidebar menu */
+.geex-sidebar__menu-wrapper {
+  width: 250px;
+  background-color: #f3f4f6;
+  padding-top: 20px;
+}
+
+.geex-sidebar__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.geex-sidebar__menu__item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.geex-sidebar__menu__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.geex-sidebar__menu__link:hover {
+  background-color: #d2d3d6;
+}
+
+.geex-sidebar__submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.geex-sidebar__submenu__item {
+  padding: 10px 40px;
+}
+
+.geex-sidebar__submenu__link {
+  text-decoration: none;
+  color: #464255;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.geex-sidebar__submenu__link:hover {
+  background-color: #d2d3d6;
+}
+
+/* Styling for SVG icons */
+.geex-sidebar__menu__link svg {
+  margin-right: 10px;
+}
+
+/* Styling for span text */
+.geex-sidebar__menu__link span {
+  margin-left: 5px;
+}
+
+/* Styling for nested lists */
+.geex-sidebar__submenu {
+  display: none;
+}
+
+.geex-sidebar__menu__item.has-children:hover .geex-sidebar__submenu {
+  display: block;
+}
+
+.geex-content__section.geex-content__form {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.geex-content__form__wrapper {
+  position: absolute;
+  top: calc(100% ); /* Adjust the distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 100%; /* Ensure the form takes the full width */
+  max-width: 800px; /* Adjust max-width as needed */
+  text-align: center; /* Center content */
+}
+
+.geex-content__form__wrapper__item.geex-content__form__left {
+  flex: 1; /* Take available space */
+}
+
+.geex-content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.geex-content__section.geex-content__form {
+  width: 50%;
+}
+
+.geex-content__form__wrapper__item.geex-content__form__right {
+  text-align: right;
+}
+.geex-customizer__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+.geex-customizer__list__item {
+  flex: 1; /* Each list item occupies equal space */
+}
+
+
+
+
+
+
+
+
+
+
